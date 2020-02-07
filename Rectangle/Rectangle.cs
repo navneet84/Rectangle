@@ -42,5 +42,22 @@ namespace Rectangle
             return this.width;
         }
 
+
+        public int GetPerimeter()
+        {
+            return 2 * (length + width);
+        }
+
+        public int GetArea()
+        {
+            return width * length;
+        }
+
+        
+
+
+
+
+
     }
 }
